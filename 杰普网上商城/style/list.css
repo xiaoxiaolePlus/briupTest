@@ -1,0 +1,54 @@
+/* CSS Document */
+*{margin:0; padding:0;}
+body{width:100%; height:100%; background-image:url(../images/bg.png); background-repeat:repeat;}
+a{text-decoration:none;}
+.a1{color:white;}
+
+
+
+#title{width:800px; height:112px; background-color:rgb(153,0,0); margin:0 auto;}
+#top{width:540px; height:20px; background-image:url(../images/top.png); background-repeat:no-repeat; float:right; margin-top:0; margin-right:0;}
+.top1{float:left; margin-top:1px; margin-left:25px; font-size:11px;}
+.top2{height:18px; float:right; margin-top:2px; padding-right:3px; margin-left:3px; font-size:11px; color:white; border-right:1.5px solid white; list-style:none;}
+#top3{height:18px; float:right; margin-top:2px; margin-right:12px; margin-left:3px; font-size:11px; color:white; list-style:none;}
+#tubiao{width:438px; height:66px; clear:both;}
+#searchbox{width:290px; height:25px; clear:both; float:right; margin-top:22px; margin-right:9px;}
+#search{width:80px; height:25px; background-image:url(../images/%E7%99%BB%E9%99%86login.png); float:right; margin-top:0; margin-right:o; border:none; border-radius:1px; color:white; font-size:16px; text-align:center; vertical-align:middle;}
+#stext{width:208px; height:23px; border-top:1px solid rgb(171,173,179); border-right:1px solid rgb(219,223,230); border-bottom:1px solid rgb(233,238,243); border-left:1px solid rgb(226,227,234); float:right; margin-top:0; margin-right:o; border-radius:1px;}
+#line{width:800px; height:32px; clear:both;}
+#lblack{width:800px; height:9px; background-image:url(../images/line.jpg); background-repeat:no-repeat;}
+#lwhite{width:800px; height:23px; background-color:white;}
+
+
+#header{width:800px; height:160px; margin:0 auto; clear:both;}
+#plan{width:800px; height:125px; background-image:url(../images/plan.jpg); background-repeat:no-repeat;}
+#menu{width:780px; height:35px; background-image:url(../images/menu.png); background-repeat:repeat-x; padding:0 0 0 20px;}
+#menus{font-size:17px; margin:0 26.5px; color:white; height:35px; width:70px; line-height:35px; display:inline-block; text-align:center;}
+#menus:hover{width:70px; height:35px; background-image:url(../images/hover.png); background-repeat:no-repeat;}
+.menus1{font-size:17px; margin:0 26.5px; color:white; height:35px; width:70px; line-height:35px; display:inline-block;}
+.menus1:hover{width:70px; height:35px; background-image:url(../images/hover.png);}
+
+
+#body{width:800px; height:760px; margin:13px auto;}
+#left{width:219px; height:494px; border:3px solid rgb(184,0,0); float:left; margin-top:0; margin-left:0;}
+#bltitle{width:213px; height:45px; background-color:rgb(184,0,0); color:white; font-size:23px; padding-left:8px; line-height:45px;}
+#bllist{width:201px; height:355px; margin-top:5px; margin-left:18px; color:rgb(184,0,0);}
+.li{list-style:none; border-bottom:1px solid rgb(184,0,0);}
+.li1{font-size:13px; height:34px; color:rgb(184,0,0); line-height:34px;}
+.li2{font-size:11px; height:37px; clear:rgb(184,0,0); line-height:37px;}
+#right{width:555px; height:740px; border:3px solid rgb(184,0,0); float:left; margin-top:0; margin-left:13px;}
+#rtitle{width:542px; height:46px; line-height:46px; font-size:22px; color:white; background-color:rgb(184,0,0); padding-left:13px;}
+#ershoushichang{width:546px; height:30px; line-height:30px; font-size:12px; color:black; background-color:rgb(230,230,230); padding-left:9px;}
+#aa{color:black;}
+#tupian{width:516px; height:609px; margin-top:15px; margin-left:20px;}
+.tu1{width:150px; height:203px; margin:0; /*background-image:url(../images/zhekou.png); background-position:bottom; background-repeat:no-repeat;*/ float:left; margin-top:0; margin-left:0;}
+.tu2{width:150px; height:203px; padding:0 33px; /*background-image:url(../images/zhekou.png); background-position:bottom; background-repeat:no-repeat;*/ float: left; margin-top:0; margin-left:0;}
+.utl{float:left; margin-left:0; margin-top:0;}
+tur{float:left; margin-left:0; margin-top:0;}
+.cheming{color:black; font-weight:bold; font-size:12px; margin:8px 0 8px 0;}
+.jiage{color:rgb(221,0,0); font-size:11px;}
+
+
+
+#footer{width:750px; height:58px; background-color:rgb(184,0,0); border-radius:10px 10px 0 0; margin:0 auto; text-align:center; padding:48px 0 0 0; color:white; font-size:14px;}
+

@@ -1,0 +1,78 @@
+/* CSS Document */
+*{margin:0; padding:0;}
+a{text-decoration:none; color:RGB(60,60,60);}
+
+
+#title{width:100%; height:36px;/*test*/ margin:0; padding:0; background-color:RGB(245,245,245); font-size:12px; position:fixed; text-align:center; z-index:200;}
+#login{/*width:187px;/*test*/ height:36px;/*test*/ padding:0; /*background-color:RGB(242,46,0);/*test*/ float:left; margin-top:11px;; margin-left:70px;/*test*/}
+.type1{color:RGB(242,48,0);}
+.type2{color:RGB(108,108,108);}
+.type3{display:inline-block; color:RGB(98,0,98);}
+#my{/*width:526px;/*test*/ height:36px;/*test*/ padding:0; /*background-color:RGB(108,108,108);/*test*/ float:right; margin-top:11px; margin-right:30px;/*test*/ color:RGB(108,108,108);}
+
+
+#wrap{width:1205px;/*test*/ height:910px;/*test*/ padding:0; margin:0 auto; /*background-color:RGB(98,0,98);/*test*/}
+
+
+#header{width:100%; height:166px;/*test*/ /*background-color:red;/*test*/}
+#logo{width:150px;/*test*/ height:100%; background-image:url(../images/logo.gif); background-repeat:no-repeat; background-position:bottom; float:left; margin-top:0; margin-left:0;}
+#search{width:955px;/*test*/ height:100%; /*background-color:#069;/*test*/ float:left; margin-top:0; margin-left:100px;}
+#searchbox{width:700px;/*test*/ height:44px;/*test*/ margin-top:90px; /*background-color:#63C;/*test*/ border:4px solid RGB(255,71,0);}
+/*#boxleft{border-right:2px solid RGB(229,229,229); border-bottom:none; border-left:none; border-top:none; width:70px; color:RGB(108,108,108); font-size:10px; height:44px; float:left; margin-top:0; margin-left:0; background-color:RGB(246,246,246); vertical-align:middle; text-align:center; letter-spacing:1em;}*/
+#boxleft{height:44px; width:70px; background-color:RGB(246,246,246); float:left; margin-top:0; margin-left:0;}
+.lele{height:44px; width:70px; background-color:RGB(246,246,246); overflow:hidden; font-size:14px; text-align:center; vertical-align:middle;}
+.lele:hover{background-color:rgb(204,204,204);}
+#le2{display:none;}
+#boxmiddle{width:519px; height:100%; float:left; margin-top:0; margin-left:0; border:none;}
+#boxright{border:none; border-left:2px solid RGB(255,71,0); width:111px; color:white; font-size:18px; background-color:RGB(255,71,0); height:100%; float:left; margin-top:0; margin-left:0;}
+#hotwords{width:750px;/*test*/ height:32px;/*test*/ /*background-color:#060;/*test*/}
+.hotword{display:inline-block; margin-top:5px; margin-left:3px; color:black; font-size:12px; list-style:none;}
+
+
+#body{margin:0; padding:0; width:100%; height:600px;/*test*/ margin-top:18px;/*test*/ /*background-color:yellow;/*test*/}
+#nav{width:168px;/*test*/ height:595px;/*test*/ /*background-color:RGB(255,71,0);/*test*/ float:left; margin-top:0; margin-left:0; padding:0; list-style:none; text-align:center; border:1px solid RGB(187,187,187);}
+#nav1{list-style:none; list-style-position:inside;}
+.navs{list-style:none; list-style-position:inside; border-bottom:1px solid RGB(222,222,222);}
+#innav1{height:34px; background-color:RGB(255,71,0); line-height:37px;}
+.innav{width:168px; height:34px; background-color:RGB(242,242,242); line-height:37px;}
+#main{width:1025px;/*test*/ height:600px;/*test*/ /*background-color:#F99;/*test*/ float:left; margin-top:0; margin-left:10px;}
+#where{width:100%; height:40px;/*test*/ /*background-color:#9F0;/*test*/ border-bottom:2px solid RGB(255,71,0);}
+.where1{margin-left:25px; margin-right:30px; padding:11px 0; list-style:none; display:inline-block; color:rgb(255,71,0); font-size:16px;}
+#where12{padding:11px 0; list-style:none; margin-left:40px; display:inline-block; font-size:14px;}
+.where2{padding:11px 0; list-style:none; margin-left:22px; display:inline-block; font-size:14px;}
+#where3{padding:11px 0; list-style:none; margin-left:127px; display:inline-block; font-size:12px;}
+#photos{width:100%; height:550px;/*test*/ margin-top:8px;/*tets*/ /*background-color:#63F;/*test*/}
+#pictures{margin:0; padding:0; width:710px;/*test*/ height:552px; background-color:#90C;/*test*/ float:left; margin-top:0; margin-left:0; z-index:100;}
+.pic1{float:left; margin-top:0; margin-left:0; position:relative; top:-20px; left:0;}
+.pic2{float:left; margin-top:0; margin-left:0;}
+.pic3{float:left; margin-top:0; margin-left:0; position:relative; top:-40px; left:0;}
+.pic4{float:left; margin-top:0; margin-left:0; position:relative; top:-20px; left:0;}
+#num1{width:280px; height:20px; /*background-color:yellow;/*test*/ position:relative; top:260px; left:5px;}
+.num81{border-radius:20px; width:20px; height:20px; background-color:RGB(71,71,71); text-align:center; display:inline-block; margin-left:10px; color:RGB(255,255,255);}
+.num81:hover{background-color:RGB(255,119,0);}
+#num2{width:280px; height:20px; /*background-color:yellow;/*test*/ position:relative; top:260px; left:5px;}
+.num82{border-radius:20px; width:20px; height:20px; background-color:RGB(71,71,71); text-align:center; display:inline-block; margin-left:10px; color:RGB(255,255,255);}
+.num82:hover{background-color:RGB(255,119,0);}
+#serves{margin:0; padding:0; width:294px;/*test*/ height:552px;/*test*/ float:left; margin-top:0; margin-left:20px;/*test*/ /*background-color:#F3C;/*test*/}
+#say{width:294px;/*tets*/ height:102px;/*test*/ /*background-color:#F00;/*test*/ margin-bottom:10px; border:1px solid RGB(247,247,247);}
+#say1{width:100%; height:27px; background-color:RGB(247,247,247);}
+.says{list-style:none; margin-left:25px; font-size:10px; display:inline-block;}
+#ali{width:294px;/*test*/ height:141px;/*test*/ /*background-color:#FF9;/*test*/ border:1px solid RGB(247,247,247);}
+#alitou{float:left; margin-top:10px; margin-left:12px; width:65px; height:65px;}
+#alizi{float:left; margin-top:34px; margin-left:5px; font-size:9px;}
+#ph1{margin-top:17px; margin-left:17px;}
+#ph2{margin-top:17px; margin-left:6px;}
+#serve{width:294px;/*test*/ height:298px;/*test*/ background-color:RGB(244,244,244);}
+#szi{font-size:12px; margin:0 20px 20px 20px; padding-top:20ox;}
+.stu{width:60px; height:67px; margin-bottom:14px; margin-left:6px;}
+.stu1{width:60px; height:67px; margin-bottom:14px; margin-left:10px;}
+
+
+#footer{margin:0; padding:0; width:100%; height:100px;/*test*/ /*background-color:#39C;/*test*/}
+.market1{width:266px;/*test*/ height:100px;/*test*/ float:left; margin-top:22px; margin-right:25px; /*background-color:#93C;/*test*/}
+.market{width:266px;/*test*/ height:100px;/*test*/ float:left; margin-top:22px; margin-right:25px; /*background-color:#93C;/*test*/ border-left:2px solid RGB(238,238,238);}
+#f1{color:RGB(250,87,3); margin-left:10px;}
+#f2{color:RGB(193,185,89); margin-left:10px;}
+#f3{color:RGB(241,156,189); margin-left:10px;}
+#f4{color:RGB(86,161,229); margin-left:10px;}
+.fli{list-style:none; margin-left:6px; margin-right:15px; margin-top:12px; display:inline-block; font-size:10px;}

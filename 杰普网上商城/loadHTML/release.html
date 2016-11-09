@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="../style/release.css" />
+<link rel="shortcut icon" type="img/png" href="../images/logo.png" />
+<title>物品发布</title>
+</head>
+
+<body>
+<form method="get" action="list.html">
+   <div id="title">
+      <div id="top">
+         <p class="top1"><a href="login.html" class="a1">欢迎光临！请登录</a></p>
+         <p class="top1"><a href="reginster.html" class="a1">免费注册</a></p>
+         <ul>
+            <li id="top3"><a href="/" class="a1">注销</a></li>
+            <li class="top2"><a href="/" class="a1">帮助中心</a></li>
+            <li class="top2"><a href="collect.html" class="a1">我的收藏</a></li>
+            <li class="top2"><a href="sell.html" class="a1">卖家中心</a></li>
+         </ul>
+      </div>
+      <img src="../images/tubiao.png" id="tubiao" />
+      <div id="searchbox">
+         <div id="search">
+            <input type="submit" name="search" value="搜索" id="search" />
+         </div>
+         <div id="stext">
+            <input type="text" id="stext" />
+         </div>
+      </div>
+      <div id="line">
+         <div id="lblack"></div>
+         <div id="lwhite"></div>
+      </div>
+   </div>
+   
+   
+   <div id="header">
+      <div id="plan"></div>
+      <div id="menu">
+         <div id="menus"><a href="index.html" class="a1">首页</a></div>
+         <div class="menus1"><a href="#ershou" class="a1">二手市场</a></div>
+         <div class="menus1"><a href="#yewu" class="a1">公司业务</a></div>
+         <div class="menus1"><a href="#chuangye" class="a1">创业招聘</a></div>
+         <div class="menus1"><a href="sell.html" class="a1">客服中心</a></div>
+      </div>
+   </div>
+
+
+   <div id="body">
+      <div id="list">
+         <p id="ltitle">卖家中心</p>
+         <ul id="llist">
+            <li class="ll"><a href="release.html" class="la"><img src="../images/xiaotubiao.png" align="absmiddle" />&nbsp;&nbsp;发布新商品</a></li>
+            <li class="ll"><a href="release_list.html" class="la"><img src="../images/xiaotubiao.png" align="absmiddle" />&nbsp;&nbsp;已发布商品</a></li>
+            <li class="ll"><a href="release.html" class="la"><img src="../images/xiaotubiao.png" align="absmiddle" />&nbsp;&nbsp;管理修改商品信息</a></li>
+            <li class="ll"><a href="user_info.html" class="la"><img src="../images/xiaotubiao.png" align="absmiddle" />&nbsp;&nbsp;个人信息管理</a></li>
+            <li class="ll"><a href="change_pasword.html" class="la"><img src="../images/xiaotubiao.png" align="absmiddle" />&nbsp;&nbsp;修改密码</a></li>
+         </ul>
+      </div>
+      <div id="wupinfabu">
+         <table border="0" cellpadding="3" cellspacing="0">
+         <colgroup width="30%"></colgroup>
+         <colgroup width="70%"></colgroup>
+         <tr>
+            <th colspan="2" style="background-color:#B80000" align="left" id="tou">
+               <font size="3" color="#FFFFFF">物品发布</font>
+            </th>
+         </tr>
+         <tr>
+            <td>
+               <font color="#B80000">&nbsp;*&nbsp;物品名称</font>
+            </td>
+            <td id="wenzi">
+               <input type="text" name="mingcheng" /><font color="red"> 请用1-11个文字概述您的商品标题</font>
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <font color="#B80000">&nbsp;*&nbsp;价格</font>
+            </td>
+            <td>
+               <input type="text" name="jiage" />
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <font color="#B80000">&nbsp;*&nbsp;成色</font>
+            </td>
+            <td>
+               <select name="chengse">
+                  <option>--选择您物品的成色--</option>
+                  <option value="10">全新</option>
+                  <option value="9">九成新</option>
+                  <option value="8">八成新</option>
+                  <option value="7">七成新</option>
+                  <option value="6">六成新</option>
+                  <option value="0">年代久远</option>
+               </select>
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <font color="#B80000">&nbsp;*&nbsp;描述</font>
+            </td>
+            <td>
+               <textarea cols="35" rows="4" wrap="soft"></textarea>
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <font color="#B80000">&nbsp;*&nbsp;您要转让的是</font>
+            </td>
+            <td>
+               <select id="fenlei1">
+                  <option value="0">--请选择物品分类--</option>
+                  <option value="1">学习</option>
+                  <option value="2">生活</option>
+                  <option value="3">家具</option>
+                  <option value="4">电器</option>
+               </select>
+               <select id="fenlei2">
+                  <option>--请选择物品分类--</option>
+               </select>
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <font color="#B80000">&nbsp;*&nbsp;上传图片</font>
+            </td>
+            <td>
+               <font color="#B80000"><input type="file" name="shangchuan" /></font>
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <font color="#B80000">&nbsp;*&nbsp;交易地点</font>
+            </td>
+            <td>
+               <select id="province">
+                  <option value="0">--请选择省份--</option>
+                  <option value="1">内蒙古</option>
+                  <option value="2">北京</option>
+                  <option value="3">新疆</option>
+                  <option value="4">山西</option>
+                  <option value="5">甘肃</option>
+                  <option value="6">江苏</option>
+                  <option value="7">陕西</option>
+                  <option value="8">广东</option>
+               </select>
+               <select id="city">
+                  <option>--请选择城市--</option>
+               </select>
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <font color="#B80000">&nbsp;*&nbsp;联系电话</font>
+            </td>
+            <td>
+               <input type="text" name="dianhua" maxlength="11" />
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <font color="#B80000">&nbsp;*&nbsp;联系人</font>
+            </td>
+            <td>
+               <input type="text" name="lianxiren" />
+            </td>
+         </tr>
+         <tr>
+            <td></td>
+            <td id="wenzi">
+               <input type="submit" name="fabu" value="立即发布>>" id="fabu" onclick="alert(发布成功);" /><font color="red"> 请务必填写完所有信息</font>
+            </td>
+         </tr>
+      </table>
+      </div>
+   </div>
+   
+
+   <div id="footer">&copy; 2013 Estore<br />Site Design - Briup</div>
+</form>
+<script type="text/javascript" src="../js/wupinfenlei.js"></script>
+<script type="text/javascript" src="../js/shengshi.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+/* CSS Document */
+*{margin:0; padding:0;}
+body{margin:0; padding:0;}
+wrap{margin:0 auto; padding:0; width:1200px;/*test*/ height:800px;/*test*/ background-color:#39C;}
+header{margin:0 auto; padding:0; width:1000px;/*test*/ height:150px;/*test*/ background-color:#6C6;}
+body{margin:20px auto; padding:0; width:1000px;/*test*/ height:500px;/*test*/}
+footer{margin:0 auto; padding:0; width:1000px;/*test*/ height:}

@@ -1,0 +1,28 @@
+/* CSS Document */
+*{margin:0; padding:0;}
+body,ul,li,a{margin:0; padding:0; font-size:14px;}
+a{text-decoration:none; color:RGB(3,50,156);}
+#wrap{margin:0 auto; padding:40px; width:850px;/*test*/ height:465px;/*test*/}
+#header{margin:0; padding:0; width:100%; height:34px; background-color:RGB(234,243,255); border-radius:4px;}
+#QQemail{margin:0; padding:0 0 0 12px; width:199px; height:34px; background-image:url(../images/email_03.png); background-repeat:no-repeat; display:inline-block;}
+#title{float:right; margin-top:10px; margin-right:12px; width:255px; height:12px; text-align:center; font-size:12px; display:inline-block;}
+#body{margin:0; padding:0; width:100%; height:377px;}
+#left{padding:0; width:430px; height:100%; float:left; margin-top:0; margin-left:0;}
+#photo{padding:0; width:135px; height:180px; background-image:url(../images/email_06.png); float:left; margin-top:41px; margin-left:12px;}
+#words{padding:0; width:220px; height:254px; float:left; margin-top:41px; margin-left:32px;}
+.one{font-size:18px; color:RGB(3,50,157);}
+#two{color:black; font-size:14px;}
+#three{color:black; font-size:10px;}
+p{line-height:30px;}
+#list{margin:0 0 0 20px; padding:0; color:RGB(177,164,192); font-size:12px; clear:both;}
+#right{padding:24px 37px 20px; width:321px; height:284px; float:left; margin-top:17px; margin-left:20px; background-color:RGB(237,245,255); border-radius:8px; border:1px solid RGB(172,195,228);}
+#t1{width:170px; height:35px; color:RGB(128,128,128); border-radius:4px;}
+#t2{width:112px; height:35px; color:RGB(128,128,128); border-radius:4px;}
+#t3{width:304px; height:35px; margin-top:10px; color:RGB(128,128,128); border-radius:4px;}
+#remem{padding:0; float:left; margin-top:10px; margin-left:0;}
+#forget{padding:0; float:right; margin-top:10px; margin-right:0; color:RGB(177,156,157);}
+.other{ color:RGB(177,156,157); padding:0; line-height:14px;}
+#login{width:85px; height:32px; color:white; background-color:RGB(122,175,17); border-radius:4px; clear:both;}
+#footer{margin:25px auto 0 auto; padding:0; width:100%; height:54px; clear:both;}
+#tel{margin:0 auto; padding:0; width:100%; height:30px; background-color:RGB(234,243,255); text-align:center;}
+#shangbiao{margin:0 auto; padding:0; width:100%; height:14px; color:RGB(191,177,159); text-align:center;}

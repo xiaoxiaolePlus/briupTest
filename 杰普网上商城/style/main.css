@@ -1,0 +1,264 @@
+body {
+    width:100%;
+    height:100%;
+    background-image:url(../images/bg.png);
+    background-repeat:repeat;
+}
+#daohang {
+    width:750px;
+    height:335px;
+    margin-top:13px;
+}
+#dleft {
+    width:219px;
+    height:329px;
+    border:3px solid rgb(184,0,0);
+    float:left;
+    margin-top:0;
+    margin-left:0;
+}
+#dltitle {
+    width:212px;
+    height:50px;
+    font-size:22px;
+    color:white;
+    margin-top:22px;
+    line-height:50px;
+    padding-left:7px;
+    background-color:rgb(184,0,0);
+}
+.dllist {
+    margin-top:7px;
+}
+.dlli {
+    margin-top:19px;
+    margin-left:18px;
+    list-style:none;
+    font-size:16px;
+    color:rgb(184,0,0);
+}
+#dright{
+    width:525px;
+    height:335px;
+    float:left;
+    margin-top:0;
+    margin-left:0;
+    z-index:100;
+}
+.gundongtiao {
+    width:140px;
+    height:16px;
+    border:none;
+    font-size:11px;
+    color:white;
+    position:relative;
+    top:300px;
+    left:160px;
+    z-index:200;
+    text-align:center;
+    line-height:16px;
+}
+.gundongtiao div {
+    width:16px;
+    height:16px;
+    margin-right:2px;
+    background-color:rgba(0,0,0,0.4);
+    display:inline-block;
+}
+.gundongtiao div.g {
+    width:26px;
+    height:16px;
+    background-color:rgba(184,0,0,0.4);
+}
+#dright img{
+    margin-top: -16px;
+    opacity: 0.5;
+    display: none;
+}
+#dright img.g{
+    opacity: 1;
+    display: block;
+}
+#ershou {
+    width:744px;
+    height:450px;
+    margin-top:18px;
+    border:3px solid rgb(184,0,0);
+    border-bottom:2px solid rgb(184,0,0);
+    background-color:rgb(241,241,241);
+}
+#ertitle {
+    width:726px;
+    height:43px;
+    background-color:rgb(184,0,0);
+    color:white;
+    padding-left:18px;
+    font-size:19px;
+    line-height:43px;
+}
+#ermore {
+    float:right;
+    margin-top:5px;
+    margin-right:7px;
+    color:white;
+    font-size:14px;
+}
+#erchoose {
+    width:744px;
+    height:30px;
+    background-color:rgb(222,222,222);
+}
+#ec {
+    width:170px;
+    height:30px;
+    font-size:12px;
+    text-align:center;
+    line-height:30px;
+    float:left;
+    margin-top:0;
+    margin-left:0;
+    background-color:rgb(222,222,222);
+}
+.ech {
+    background-color:rgb(241,241,241)!important;
+    display: inline-block!important;
+}
+#erphoto {
+    width:744px;
+    height:377px;
+    display: none;
+}
+.ep1 {
+    width:130px;
+    height:178px;
+    float:left;
+    margin-top:15px;
+    margin-left:55px;
+    background-image:url(../images/remai1.jpg);
+    background-position:bottom;
+}
+.ep2 {
+    width:130px;
+    height:178px;
+    float:left;
+    margin-top:15px;
+    margin-left:40px;
+    background-image:url(../images/remai1.jpg);
+    background-position:bottom;
+}
+.ep3 {
+    width:130px;
+    height:178px;
+    float:left;
+    margin-top:0;
+    margin-left:55px;
+    background-image:url(../images/remai1.jpg);
+    background-position:bottom;
+}
+.ep4 {
+    width:130px;
+    height:178px;
+    float:left;
+    margin-top:0;
+    margin-left:40px;
+    background-image:url(../images/remai1.jpg);
+    background-position:bottom;
+}
+#aa {
+    color:black;
+}
+.name {
+    font-size:12px;
+    float:left;
+    margin-top:0;
+    margin-left:45px;
+}
+.money {
+    font-size:11px;
+    color:rgb(221,0,0);
+    float:left;
+    margin-top:-10px;
+    margin-left:45px;
+}
+#yewu {
+    width:750px;
+    height:285px;
+    margin-top:13px;
+    margin-bottom:13px;
+}
+#yleft {
+    width:361px;
+    height:279px;
+    border:3px solid rgb(184,0,0);
+    float:left;
+    margin-top:0;
+    margin-left:0;
+}
+#yltitle {
+    width:343px;
+    height:43px;
+    background-color:rgb(184,0,0);
+    color:white;
+    padding-left:18px;
+    font-size:17px;
+    line-height:43px;
+}
+#yltext {
+    width:350px;
+    height:182px;
+    margin-top:15px;
+    margin-left:9px;
+}
+.ylt {
+    height:26px;
+    width:340px;
+    line-height:26px;
+    list-style:none;
+    border-bottom:1px solid rgb(204,204,204);
+}
+#yright {
+    width:361px;
+    height:279px;
+    border:3px solid rgb(184,0,0);
+    float:left;
+    margin-top:0;
+    margin-left:16px;
+}
+#yrtitle {
+    width:343px;
+    height:43px;
+    background-color:rgb(184,0,0);
+    color:white;
+    padding-left:18px;
+    font-size:17px;
+    line-height:43px;
+}
+#yrtext {
+    width:350px;
+    height:182px;
+    margin-top:15px;
+    margin-left:9px;
+}
+.yrt {
+    height:26px;
+    width:340px;
+    line-height:26px;
+    list-style:none;
+    border-bottom:1px solid rgb(204,204,204);
+}
+#yemore {
+    float:right;
+    margin-top:2px;
+    margin-right:7px;
+    color:white;
+}
+.geci {
+    float:left;
+    margin-top:0;
+    margin-left:5px;
+}
+.time {
+    float:right;
+    margin-top:0;
+    margin-right:5px;
+}

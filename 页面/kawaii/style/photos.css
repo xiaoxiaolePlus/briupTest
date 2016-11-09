@@ -1,0 +1,14 @@
+/* CSS Document */
+*{margin:0; padding:0;}
+body{margin:0; padding:0; background-color:RGB(48,50,63);}
+#wrap{width:1280px; height:800px; background-image:url(../images/%E7%85%A7%E7%89%87%E5%A2%99.jpg); margin:0 auto;}
+#header{width:680px; height:70px; margin:0; padding:17px 200px 17px 200px; font-size:36px; font-family:"华文琥珀"; color:RGB(159,1,5);}
+#body{width:760px; height:850px; float:left; margin-top:0; margin-left:0;}
+.ph1{width:220px; height:220px; display:inline-block; margin:0 20px 20px 0; transition:margin-left 1s linear;}
+.ph1:hover{width:220px; height:220px; margin:0 20px 20px 20px;}
+.ph2{width:220px; height:220px; display:inline-block; margin:0 20px 20px 0; transition:margin-left 1s linear;}
+.ph2:hover{width:220px; height:220px; margin:0 20px 20px 20px;}
+.img1{width:220px; height:220px; border-radius:220px; border:5px solid RGB(87,47,45); transition:border-radius 1s linear;}
+.img1:hover{width:220px; height:220px; border-radius:0; border:5px solid RGB(87,47,45);}
+#footer{width:200px; height:800px; float:left; margin-top:350px; margin-left:0;}
+#main{width:200px; height:60px; margin:100px 200px 200px 150px; background-color:RGB(48,50,63); color:#FFFF80; font-family:"文鼎中特廣告體"; font-size:36px;}

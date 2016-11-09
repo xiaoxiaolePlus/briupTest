@@ -1,0 +1,21 @@
+/* CSS Document */
+*{margin:0; padding:0;}
+body{margin:0; padding:0; background-image:url(../images/bg.png); background-repeat:repeat;}
+a{text-decoration:none; color:RGB(86,101,131);}
+#wrap{margin:0 auto; padding:0; width:1200px;/*test*/}
+#header{margin:0 auto; padding:0; width:100%;/*test*/ height:250px;/*test*/}
+#title{margin:10px auto; padding:0; width:980px;/*test*/ height:100px;/*test*/ border-radius:20px; font-family:"651-CAI978"; font-size:48px; text-align:center; padding-top:65px; transition:font-size 0.5s linear;}
+#title:hover{font-size:60px; text-shadow:5px 5px 10px #FF6;}
+#body{margin:0 auto; padding:0; width:1180px;}
+#top{margin:0 auto 0 auto; padding:0; width:1080px;/*test*/ height:40px;/*test*/ color:RGB(164,255,250); margin-left:130px;}
+#top1{margin:0; padding:0; height:40px; border-radius:0;}
+#top2:hover{color:#FF8080;}
+#middle{margin:0 auto; padding:0; width:1080px;/*test*/}
+#left{padding:0; width:234px;/*test*/ height:35px;/*test*/ float:left; margin-top:50px; margin-left:20px;}
+.left{padding:0; width:234px;/*test*/ height:35px;/*test*/ color:#FC6; margin-left:10px; margin-top:50px; text-align:center; vertical-align:middle; font-size:18px; font-family:"华文楷体"; transition:font-size 0.5s linear; border:3px double RGB(218,206,168); border-radius:50px;}
+.left:hover{color:#969; font-size:24px;}
+#right{padding:20px; width:686px;/*test*/ float:left; margin-top:100px; margin-left:50px; background:RGB(231,232,201); url(../images/rbg.jpg); background-repeat:no-repeat; background-position:center; border-radius:30px;}
+#user{margin:30px auto; padding:0; border:3px double RGB(191,157,138); background-image:url(../images/user.png); height:200px; width:200px; border-radius:200px; border:3px double #FF9; border-radius:200px;}
+#about{display:inline-block; padding:0; color:#099; font-size:24px; font-family:"华文彩云";}
+#r-right{float:left; margin-top:20px; margin-left:30px; font-family:"华文仿宋"; font-size:24px; color:RGB(124,96,206);}
+#footer{height:30px;/*test*/font-family:"651-CAI978"; font-size:24px; text-align:right; background-color:RGB(231,232,201); margin:20px; padding:20px; border-radius:10px; float:right; margin-bottom:20px; margin-right:200px;}

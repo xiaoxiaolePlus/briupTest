@@ -1,0 +1,48 @@
+
+#collectBody{
+    width:800px;
+    height:856px;
+    border:none;
+    margin:14px auto;
+}
+#ctitle{
+    width:165px;
+    height:28px;
+    color:white;
+    border:none;
+    border-radius:5px 5px 0 0;
+    background-color:rgb(184,0,0);
+    font-size:17px;
+    padding:8px 0 0 15px;
+    margin-left: 1px;
+}
+#clist{
+    width:792px;
+    height:822px;
+    border:3px solid rgb(148,0,0);
+}
+.li{
+    text-align:center;
+    background-image:url(../images/polaroid-bg.png);
+    width:264px;
+    height:274px;
+    float:left;
+    margin-top:0;
+    margin-left:0;
+}
+.pp{
+    margin-top:15px;
+}
+.name{
+    font-size:15px;
+    width:264px;
+    height:35px;
+    line-height:35px;
+}
+.jieshao{
+    font-size:11px;
+}
+.lia{
+    color:black;
+}
+
